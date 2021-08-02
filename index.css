@@ -1,0 +1,40 @@
+.headerimg{
+    height: 500px;
+    width: 100%;
+}
+body{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.btn1{
+    width: 220px !important;
+    height: 68px !important;
+    font-size: 2rem !important;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+footer h1{
+    font-size: 1.8rem;
+    color: white ;
+}
+@media only screen and (max-width: 700px) {
+    .headerimg{
+        height: 300px;
+        width: 100%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+  }
