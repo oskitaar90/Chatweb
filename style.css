@@ -113,6 +113,9 @@ footer h1{
 footer ul{
     list-style: none;
 }
+.dropdown-item{
+    color: white;
+}
 header{
     display: inline-block;
 }
