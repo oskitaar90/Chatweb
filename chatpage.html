@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/227c481214.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="advt">
+    </div>
+    <iframe src="https://kiwiirc.hybridirc.com/#BangladeshChatForum.com" allow="microphone; camera; display-capture"
+        style="border:0; width:100%; height:600px;"></iframe>
+    <div class="advt"></div>
+    <script>
+        function myfunc() {
+            var menu = document.getElementsByTagName("menu");
+            var i2 = document.getElementsByClassName("i2");
+            var menu2 = document.getElementsByClassName("menu2");
+            menu2[0].style.display = "flex";
+            i2[0].style.display = "inline";
+            menu[0].style.height = "250px";
+        }
+        function dropdownfunc() {
+            var dropdown = document.getElementById("dropdown");
+            if (dropdown.style.display == "none") {
+                dropdown.style.display = "inline";
+            }
+            else {
+                dropdown.style.display = "none";
+            }
+            var dropdown10 = document.getElementById("dropdown10")
+
+            if (dropdown10.style.display == "none") {
+                dropdown10.style.display = "inline";
+            }
+            else {
+                dropdown10.style.display = "none";
+            }
+        }
+        function i2() {
+            var menu = document.getElementsByTagName("menu");
+            var i2 = document.getElementsByClassName("i2");
+            var menu2 = document.getElementsByClassName("menu2");
+            menu2[0].style.display = "none";
+            i2[0].style.display = "none";
+            menu[0].style.height = "70px";
+        }
+    </script>
+</body>
+
+</html>

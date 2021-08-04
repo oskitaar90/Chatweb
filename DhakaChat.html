@@ -1,65 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Dhaka Chat</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/227c481214.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <menu>
+        <ul class="menu1">
+            <li class="menu-items"><a href="index.html">Home</a></li>
+            <li class="menu-items" onclick="dropdownfunc()">Chat Rooms<i class="fas fa-sort-down"></i></li>
+            <li class="menu-items">About us</li>
+        </ul>
+
+        <div class="logo">
+            <button class="menubtn" onclick="myfunc()">
+                <h1>Bangladesh<b>ChatForum</b>.com</h1>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Chat Rooms
-                        </a>
-                        <ul class="dropdown-menu active" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item active" href="DhakaChat.html">Dhaka Chat</a></li>
-                            <li><a class="dropdown-item" href="#">Sylhet Chat</a></li>
-                            <li><a class="dropdown-item" href="#">Chittagong Chat</a></li>
-                            <li><a class="dropdown-item" href="#">Barisal Chat</a></li>
-                            <li><a class="dropdown-item" href="#">Mymensingh Chat</a></li>
-                            <li><a class="dropdown-item" href="#">Khulna Chat</a></li>
-                            <li><a class="dropdown-item" href="#">Rangpur Chat</a></li>
-                            <li><a class="dropdown-item" href="#">Rajshahi Chat </a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Feedback</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Terms of use</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
-                    </li>
-
-                </ul>
-
-            </div>
         </div>
-    </nav>
-    <h1>Dhaka Chat</h1>
+        <div class="logo1">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+            <h1>Bangladesh<b>ChatForum</b>.com</h1>
+
+        </div>
+        <ul class="menu2">
+            <li class="menu-items2"><a href="index.html">Home</a></li>
+            <li class="menu-items2" onclick="dropdownfunc()">Chat Rooms<i class="fas fa-sort-down"></i></li>
+            <li class="menu-items2">About us</li>
+        </ul>
+        <i class="fas fa-times i2" onclick="i2()"></i>
+    </menu>
+    <div class="dropdown " id="dropdown">
+        <ul class="dropdownul">
+            <li><a class="dropdown-item" href="DhakaChat.html">Dhaka Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Sylhet Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Chittagong Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Barisal Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Mymensingh Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Khulna Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Rangpur Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Rajshahi Chat </a></li>
+        </ul>
+    </div>
+    <div class="dropdown10 " id="dropdown10" style="display: none;">
+        <ul class="dropdownul">
+            <li><a class="dropdown-item" href="DhakaChat.html">Dhaka Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Sylhet Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Chittagong Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Barisal Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Mymensingh Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Khulna Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Rangpur Chat</a></li>
+            <hr>
+            <li><a class="dropdown-item" href="#">Rajshahi Chat </a></li>
+        </ul>
+    </div>
+    <div class="advt"></div>
+
+    <div class="menu2">
+
+
+    </div>
+    <iframe src="https://kiwiirc.hybridirc.com/#BangladeshChatForum.com" allow="microphone; camera; display-capture"
+        style="border:0; width:100%; height:600px;"></iframe>
+    <div class="advt"></div>
+    <div class="advt"></div>
+    <footer>
+        <h1>Copyright &#169; 2021 Bangladeshchatforum.com - All rights reserved.</h1>
+        <aside>
+            <ul>
+                <li>About us</li>
+                <li>Privacy Policy</li>
+                <li>Cookie Policy</li>
+                <li>Terms and condition</li>
+            </ul>
+        </aside>
+    </footer>
+    <script>
+        function myfunc() {
+            var menu = document.getElementsByTagName("menu");
+            var i2 = document.getElementsByClassName("i2");
+            var menu2 = document.getElementsByClassName("menu2");
+            menu2[0].style.display = "flex";
+            i2[0].style.display = "inline";
+            menu[0].style.height = "250px";
+        }
+        function dropdownfunc() {
+            var dropdown = document.getElementById("dropdown");
+            if (dropdown.style.display == "none") {
+                dropdown.style.display = "inline";
+            }
+            else {
+                dropdown.style.display = "none";
+            }
+            var dropdown10 = document.getElementById("dropdown10")
+
+            if (dropdown10.style.display == "none") {
+                dropdown10.style.display = "inline";
+            }
+            else {
+                dropdown10.style.display = "none";
+            }
+        }
+        function i2() {
+            var menu = document.getElementsByTagName("menu");
+            var i2 = document.getElementsByClassName("i2");
+            var menu2 = document.getElementsByClassName("menu2");
+            menu2[0].style.display = "none";
+            i2[0].style.display = "none";
+            menu[0].style.height = "70px";
+        }
+    </script>
 </body>
 
 </html>
