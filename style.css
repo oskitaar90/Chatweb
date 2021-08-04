@@ -205,6 +205,7 @@ color: red;
 
     .menubtn{
         display: inline;
+        outline: none;
     }
     .logo1{
         display: none;
