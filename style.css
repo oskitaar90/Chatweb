@@ -78,7 +78,8 @@ i{
     height: 180px;
     border: 2px solid black ;
     border-right: 0px;
-        border-left: 0px;
+    border-left: 0px;
+    display: flex; justify-content: center; align-items: center;
 }
 .btn1{
     width: 162px;
