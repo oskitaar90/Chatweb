@@ -100,7 +100,10 @@ footer{
     background-color: #3E773E;
     margin: 0;
     padding:0;
-    height: 200px;
+    height: max-content;
+    padding-bottom: 6px;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     margin-top: -9px;
     border-radius: 30px 30px 0px 0px;
