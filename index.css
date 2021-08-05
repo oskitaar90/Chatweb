@@ -1,0 +1,13 @@
+@media only screen and (max-width: 840px) {
+    menu {
+        box-shadow: 0px 0px 5px 5px #d8c9c9;
+    }
+}
+h3{
+    color: red;
+    margin: 30px;
+}
+h4{
+    color: #3E773E;
+    margin: 30px;
+}

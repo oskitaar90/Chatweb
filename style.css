@@ -124,6 +124,9 @@ footer ul{
     list-style: none;
     margin-left: -41px;
 }
+footer a{
+    color: black;
+}
 .dropdown-item{
     color: white;
 }
