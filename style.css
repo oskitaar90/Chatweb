@@ -90,7 +90,13 @@ i{
     font-size: 25px;
     color: red;
     text-align: center;
-    margin: 100px;
+    margin: 50px;
+}
+.share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .p1{
     margin: 70px;
@@ -112,7 +118,7 @@ footer{
 }
 footer h1{
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 footer ul{
     list-style: none;
@@ -122,7 +128,8 @@ footer ul{
     color: white;
 }
 header{
-    display: inline-block;
+    display: grid;
+margin-top: -45px;
 }
 .i2{
     font-size: 3rem;
@@ -151,6 +158,12 @@ header{
     margin-top: -45px;
     display: none;
 
+}
+a{
+    cursor: pointer;
+}
+li{
+    cursor: pointer;
 }
 @media only screen and (min-width: 840px) {
 .dropdown10{
@@ -185,7 +198,7 @@ color: red;
         border-radius: 13px;
         position: absolute;
         right: 33.9%;
-        margin-top: -155px;
+        margin-top: -137px;
     }
     .menu1{
         display: none;
@@ -198,7 +211,6 @@ color: red;
     border-radius: 0px 0px 20px 20px;
     height: fit-content;
     margin-top: -18px;
-    box-shadow: #d2cbcb 0px 1px 0px 5px;
     }
     .logo{
         text-align: center;
@@ -240,7 +252,12 @@ svg{
 .dropdown{
     display: none !important;
 }
-
+header {
+    margin-top: -97px;
+}
+img{
+    z-index: -1;
+}
   }
   @media only screen and (max-width: 1400px) {
       .dropdown{
@@ -261,11 +278,18 @@ svg{
     .dropdown{
         right: 13.3%;
     }
+    .menu1{
+        font-size: 1.4rem;
+            }
+            .logo1 h1 {
+                font-size: 1.4rem;
+            }
 }
 @media only screen and (max-width: 900px) {
     .dropdown{
         right: 14.3%;
     }
+
 }
 @media only screen and (max-width: 810px) {
     .dropdown{
@@ -310,7 +334,7 @@ svg{
     }
     footer h1 {
         padding-top: 10px;
-        font-size: 1.4rem;
+        font-size: 0.7rem;
     }
     .btn1{
         margin: 60px;
