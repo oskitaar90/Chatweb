@@ -364,6 +364,10 @@ img{
     input[type="checkbox" i] {
         margin: 0 !important;
     }
+    nav{
+        margin-left: -1rem;
+
+    }
 }
 @media only screen and (max-width: 395px) {
     .dropdown10{
