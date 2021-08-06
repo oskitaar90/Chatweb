@@ -361,6 +361,9 @@ img{
         font-size: 1.4rem;
         font-weight: 400;
     }
+    input[type="checkbox" i] {
+        margin: 0 !important;
+    }
 }
 @media only screen and (max-width: 395px) {
     .dropdown10{
