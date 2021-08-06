@@ -40,7 +40,8 @@ menu{
 .logo{
     display: inline;
     padding: 0;
-    text-align:left !important;
+    padding-top: 20px;
+    text-align: right !important;
 
 
 }
@@ -50,6 +51,8 @@ i{
 .logo h1{
     font-size: 1.8rem;
     font-weight: 400;
+    display: inline;
+    margin-top: 20px;
 }
 .logo h1 b{
     font-weight: 400;
@@ -132,8 +135,8 @@ footer a{
     color: white;
 }
 header{
-    display: grid;
-margin-top: -45px;
+
+margin-top: 20px;
 }
 .i2{
     font-size: 3rem;
@@ -173,6 +176,13 @@ li{
 .dropdown10{
 display: none !important;
 
+}
+.logo{
+    display: none;
+}
+.img30{
+    width: 50%;
+    height: 400px;
 }
 }
 .dropdownul li{
@@ -217,9 +227,15 @@ color: red;
     height: fit-content;
     margin-top: -18px;
     }
+    span{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
     .logo{
-        text-align: center;
-        margin-left: -2rem;
+
+        margin-right: 2rem;
+
+        margin-top: 27px;
     }
 
     .menubtn{
@@ -258,7 +274,7 @@ svg{
     display: none !important;
 }
 header {
-    margin-top: -97px;
+    margin-top: 20px;
 }
 img{
     z-index: -1;
@@ -305,10 +321,18 @@ img{
     .dropdown10{
         left: 15%;
     }
+    span{
+        grid-template-columns: 40% 60%;
+    }
 }
 @media only screen and (max-width: 600px) {
     .dropdown10{
         left: 17%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    span{
+        grid-template-columns: 30% 70%;
     }
 }
 @media only screen and (max-width: 530px) {
@@ -319,6 +343,9 @@ img{
         width: 100%;
         margin-top: -36px;
     }
+    span{
+        grid-template-columns: 30% 70%;
+    }
 }
 @media only screen and (max-width: 450px) {
     .dropdown10{
@@ -327,6 +354,12 @@ img{
     svg{
         width: 100%;
         margin-top: -56px;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .logo h1 {
+        font-size: 1.4rem;
+        font-weight: 400;
     }
 }
 @media only screen and (max-width: 395px) {
@@ -350,6 +383,10 @@ img{
     }
     footer{
         width: 99.5%;
+    }
+    .logo h1 {
+        font-size: 1.2rem;
+        font-weight: 400;
     }
 }
 @media only screen and (max-width: 355px) {
