@@ -85,6 +85,20 @@ i{
     border-left: 0px;
     display: flex; justify-content: center; align-items: center;
 }
+textarea{
+    border-radius: 1rem;
+    width: 70%;
+}
+.btnsub{
+    width:7rem;
+    height: 2.5rem;
+    background-color: #3E773E;
+    font-size: 1rem;
+    color: white;
+    border-radius: 1rem;
+    border-style: none;
+    margin: 3rem;
+}
 .btn1{
     width: 162px;
     height: 62px;
