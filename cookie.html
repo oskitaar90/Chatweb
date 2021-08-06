@@ -21,22 +21,20 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
     <menu>
         <ul class="menu1">
+
             <li class="menu-items"><a href="index.html">Home</a></li>
             <li class="menu-items"><a href="Aboutus.html">About us</a></li>
             <li class="menu-items" onclick="dropdownfunc()">Chat Rooms<i class="fas fa-sort-down"></i></li>
             <li class="menu-items"><a href="feedback.html">Feedback</a></li>
         </ul>
 
-        <div class="logo">
-            <button class="menubtn" onclick="myfunc()">
-                <h1>Bangladesh<b>ChatForum</b>.com</h1>
-            </button>
-        </div>
+
         <div class="logo1">
 
             <h1>Bangladesh<b>ChatForum</b>.com</h1>
@@ -50,6 +48,43 @@
         </ul>
         <i class="fas fa-times i2" onclick="i2()"></i>
     </menu>
+    <span class="span">
+
+
+        <nav role="navigation">
+            <div id="menuToggle">
+
+                <input onclick="cross()" type="checkbox" />
+
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="Aboutus.html">
+                        <li>About us</li>
+                    </a>
+
+
+                    <li style="color: green;" onclick="dropdownfunc()">Chat Rooms<i class="fas fa-sort-down"></i></li>
+
+
+                    <a href="feedback.html">
+                        <li>Feedback</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="logo">
+
+            <h1 style="color: green;">Bangladesh<b style="color: red;">ChatForum</b>.com</h1>
+
+        </div>
+    </span>
     <div class="dropdown " id="dropdown">
         <ul class="dropdownul">
             <li><a class="dropdown-item" href="DhakaChat.html">Dhaka Chat</a></li>
@@ -88,6 +123,10 @@
             <li><a class="dropdown-item" href="RajshahiChat.html">Rajshahi Chat </a></li>
         </ul>
     </div>
+    <div class="menu2">
+
+    </div>
+
     <h1>Bangladesh Chat Forum - Cookie Policy</h1>
     <div class="advt">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -215,10 +254,7 @@
     <h4>For more general information on cookies, please read <a style="color: red;"
             href="https://www.privacypolicyonline.com/what-are-cookies/">"What Are Cookies"</a>.</h4>
 
-    <div class="menu2">
 
-
-    </div>
 
     <footer>
 

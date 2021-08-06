@@ -80,7 +80,7 @@ i{
 .advt{
     width: 99.4%;
     height: 280px;
-    border: 2px solid black ;
+
     border-right: 0px;
     border-left: 0px;
     display: flex; justify-content: center; align-items: center;
@@ -126,7 +126,10 @@ footer h1{
 }
 footer ul{
     list-style: none;
-    margin-left: -41px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -1.4rem;
+    width: 90%;
 }
 footer a{
     color: black;
@@ -361,6 +364,9 @@ img{
     svg{
         width: 100%;
         margin-top: -56px;
+    }
+    footer li{
+        font-size: 0.7rem;
     }
 }
 @media only screen and (max-width: 470px) {
