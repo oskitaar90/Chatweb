@@ -54,26 +54,13 @@
     </menu>
     <nav role="navigation">
         <div id="menuToggle">
-            <!--
-          A fake / hidden checkbox is used as click reciever,
-          so you can use the :checked selector on it.
-          -->
-            <input type="checkbox" />
 
-            <!--
-          Some spans to act as a hamburger.
-          
-          They are acting like a real hamburger,
-          not that McDonalds stuff.
-          -->
-            <span></span>
-            <span></span>
-            <span></span>
+            <input onclick="cross()" type="checkbox" />
 
-            <!--
-          Too bad the menu has to be inside of the button
-          but hey, it's pure CSS magic.
-          -->
+
+            <span></span>
+            <span></span>
+            <span></span>
             <ul id="menu">
                 <a href="index.html">
                     <li>Home</li>
@@ -83,7 +70,7 @@
                 </a>
 
 
-                <li style="color: #3E773E;;" onclick="dropdownfunc()">Chat Rooms<i class="fas fa-sort-down"></i></li>
+                <li style="color: green;" onclick="dropdownfunc()">Chat Rooms<i class="fas fa-sort-down"></i></li>
 
 
                 <a href="feedback.html">
@@ -267,6 +254,10 @@
             menu2[0].style.display = "none";
             i2[0].style.display = "none";
             menu[0].style.height = "70px";
+        }
+        function cross() {
+            var cross = document.getElementById("dropdown10");
+            cross.style.display = "none";
         }
     </script>
 </body>
