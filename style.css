@@ -2,6 +2,7 @@ body{
     text-align: center;
     margin: 0;
     padding: 0%;
+    overflow-x: hidden;
 }
 
 .menu1{
@@ -200,8 +201,9 @@ color: red;
         padding-left: 0px;
         border-radius: 13px;
         position: absolute;
-        right: 33.9%;
-        margin-top: -137px;
+        left: 11.9%;
+    margin-top: 208px;
+    z-index: 2;
     }
     .menu1{
         display: none;
@@ -301,17 +303,17 @@ img{
 }
 @media only screen and (max-width: 700px) {
     .dropdown10{
-        right: 32%;
+        left: 15%;
     }
 }
 @media only screen and (max-width: 600px) {
     .dropdown10{
-        right: 30%;
+        left: 17%;
     }
 }
 @media only screen and (max-width: 530px) {
     .dropdown10{
-        right: 27%;
+        left: 20%;
     }
     svg{
         width: 100%;
@@ -320,7 +322,7 @@ img{
 }
 @media only screen and (max-width: 450px) {
     .dropdown10{
-        right: 23%;
+        left: 23%;
     }
     svg{
         width: 100%;
@@ -329,7 +331,7 @@ img{
 }
 @media only screen and (max-width: 395px) {
     .dropdown10{
-        right: 20%;
+        left: 25%;
     }
     .logo h1 {
         font-size: 1.4rem;
@@ -352,11 +354,11 @@ img{
 }
 @media only screen and (max-width: 355px) {
     .dropdown10{
-        right: 18%;
+        left: 29%;
     }
 }
 @media only screen and (max-width: 325px) {
     .dropdown10{
-        right: 13%;
+        left: 32%;
     }
 }

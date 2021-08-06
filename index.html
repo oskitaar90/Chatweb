@@ -16,6 +16,7 @@
     Desi Recipes, BD Jobs, Bangladesh travel chat, Bangladeshi chat friends">
     <script src="https://kit.fontawesome.com/227c481214.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
     <script data-ad-client="ca-pub-5506685424837433" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -51,6 +52,46 @@
         </ul>
         <i class="fas fa-times i2" onclick="i2()"></i>
     </menu>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+            <input type="checkbox" />
+
+            <!--
+          Some spans to act as a hamburger.
+          
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+          -->
+            <ul id="menu">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="Aboutus.html">
+                    <li>About us</li>
+                </a>
+
+
+                <li style="color: #3E773E;;" onclick="dropdownfunc()">Chat Rooms<i class="fas fa-sort-down"></i></li>
+
+
+                <a href="feedback.html">
+                    <li>Feedback</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
     <div class="dropdown " id="dropdown">
         <ul class="dropdownul">
             <li><a class="dropdown-item" href="DhakaChat.html">Dhaka Chat</a></li>
