@@ -48,6 +48,12 @@ menu{
 i{
     margin-left: 11px;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .logo h1{
     font-size: 1.8rem;
     font-weight: 400;
