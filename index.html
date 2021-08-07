@@ -15,12 +15,14 @@
     chat rooms for Bangladesh, Bangladesh singles chat, BD News and current affairs, 
     Desi Recipes, BD Jobs, Bangladesh travel chat, Bangladeshi chat friends">
     <script src="https://kit.fontawesome.com/227c481214.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
     <script data-ad-client="ca-pub-5506685424837433" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
     <title>Bangladesh Chat Forum|BD CHAT room|Free Bangladeshi Chat Rooms online</title>
 </head>
 
@@ -126,11 +128,6 @@
     <div class="menu2">
 
     </div>
-
-    <header>
-        <img class="img30" src="chat online.jpg" alt="">
-    </header>
-    <button class="btn1"><a class="a2" href="Bangladeshchat.html">Chat now</a></button>
     <div class="advt">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -145,6 +142,11 @@
 
         </script>
     </div>
+    <header>
+        <img class="img30" src="chat online.jpg" alt="">
+    </header>
+    <button class="btn1"><a class="a2" href="Bangladeshchat.html">Chat now</a></button>
+
     <h1 class="title">Bangladesh Chat Forum - BD Chat room- Free Bangladeshi Chat Rooms, Chat free with your Bangladeshi
         friends
         online now. </h1>
@@ -184,8 +186,7 @@
             alt="">
     </div>
 
-    <h4>This website uses cookies to ensure you get the best experience on our website, If you continue to use this site
-        we will assume that you are happy with it. <a href="cookie.html">Agree</a></h4>
+
     <div class="advt">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -214,15 +215,74 @@
     </div>
     <script async src="https://static.addtoany.com/menu/page.js"></script>
     <!-- AddToAny END -->
+    <div id="app"></div>
+    <div id="cookieconsent"></div>
+
+
+    <script>
+        window.cookieconsent.initialise({
+            container: document.getElementById("cookieconsent"),
+            palette: {
+                popup: { background: "#1aa3ff" },
+                button: { background: "#e0e0e0" },
+            },
+            revokable: false,
+            onStatusChange: function (status) {
+                console.log(this.hasConsented() ?
+                    'enable cookies' : 'disable cookies');
+            },
+            "position": "bottom-left",
+            "theme": "classic",
+            "domain": "https://i71n4.csb.app/",
+            "secure": true,
+            "content": {
+                "header": 'Cookies used on the website!',
+                "message": 'This website uses cookies to improve your experience.',
+                "dismiss": 'Got it!',
+                "allow": 'Allow cookies',
+                "deny": 'Decline',
+                "link": 'Learn more',
+                "href": 'https://www.cookiesandyou.com',
+                "close": '&#x274c;',
+                "policy": 'This website uses cookies to improve your experience.',
+                "target": '_blank',
+            }
+        });
+
+    </script>
+    <script src="index.js"></script>
     <footer>
 
         <aside>
-            <ul>
-                <li> <a href="Aboutus.html">About us</a></li>
-                <li> <a href="Privacy.html">Privacy Policy</a></li>
-                <li> <a href="cookie.html">Cookie Policy</a></li>
-                <li> <a href="T&C.html">Terms of use</a></li>
-                <li><a href="#">Chat safety</a></li>
+            <h1 class="item1">Best Chatrooms</h1>
+            <h1 class="item2">Other Info</h1>
+            <ul class="item3">
+                <li><a class="item3a" href="DhakaChat.html">Dhaka Chat</a></li>
+
+                <li><a class="item3b" href="sylhetchat.html">Sylhet Chat</a></li>
+
+                <li><a class="item3c" href="ChittagongChat.html">Chittagong Chat</a></li>
+
+                <li><a class="item3d" href="BarisalChat.html">Barisal Chat</a></li>
+
+                <li><a class="item3e" href="MymensinghChat.html">Mymensingh Chat</a></li>
+
+                <li><a class="item3f" href="KhulnaChat.html">Khulna Chat</a></li>
+
+                <li><a class="item3g" href="RangpurChat.html">Rangpur Chat</a></li>
+
+                <li><a class="item3h" href="RajshahiChat.html">Rajshahi Chat </a></li>
+            </ul>
+            <ul class="item4">
+                <li class="item4a"><a href="index.html">Home</a></li>
+                <li class="item4b"> <a href="Aboutus.html">About us</a></li>
+                <li class="item4c"> <a href="Privacy.html">Privacy Policy</a></li>
+                <li class="item4d"> <a href="cookie.html">Cookie Policy</a></li>
+                <li class="item4e"> <a href="T&C.html">Terms of use</a></li>
+                <li class="item4f"><a href="chatsafety.html">Chat safety</a></li>
+                <li class="item4g"><a href="feedback.html">Feedback</a></li>
+                <li class="item4h"><a href="Bangladeshchat.html">Chat now</a></li>
+
             </ul>
         </aside>
         <h1>Copyright &#169; 2021 Bangladeshchatforum.com - All rights reserved.</h1>
@@ -265,6 +325,8 @@
             var cross = document.getElementById("dropdown10");
             cross.style.display = "none";
         }
+
+
     </script>
 </body>
 
