@@ -406,6 +406,12 @@ img{
 
     }
 }
+@media only screen and (max-width: 400px) {
+
+    span {
+        grid-template-columns: 20% 80%;
+    }
+}
 @media only screen and (max-width: 395px) {
     .dropdown10{
         left: 25%;
@@ -438,9 +444,13 @@ img{
         left: 29%;
     }
 }
+
 @media only screen and (max-width: 325px) {
     .dropdown10{
         left: 32%;
+    }
+    span {
+        grid-template-columns: 25% 75%;
     }
 }
 .cc-revoke, .cc-window {
@@ -451,9 +461,4 @@ img{
 }
 .item4 a{
     color: white;
-}
-@media only screen and (max-width: 320px){
-span {
-    grid-template-columns: 25% 75%;
-}
 }
